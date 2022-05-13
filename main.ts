@@ -1,4 +1,4 @@
-input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+input.onGesture(Gesture.ScreenDown, function () {
     radio.sendString(Text)
     basic.clearScreen()
     Text = ""
